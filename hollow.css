@@ -1,0 +1,102 @@
+h1 {
+    width: 97%;
+    background-color: rgb(52, 68, 76);
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center ;
+    padding: 10px;
+
+}
+/*خلفية للموقع */
+
+body{
+    background-image: url(/hollow.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family:Simplified Arabic Fixed ;
+    
+}
+
+
+p { 
+    size: 100%;
+    color: aliceblue;
+}
+/* العمل على div */
+ 
+.x {
+    width: 500px;
+    height: 270px;
+    transition: all 0.5s;
+}
+.x:hover {
+    width: 600px;
+    height: 370px;
+}
+
+a {
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(90, 131, 245);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center ;
+    padding: 10px;
+    opacity: 0.7;
+    transition: all 0.5s ;
+    text-decoration: none;
+    size: 100px;
+}
+a:hover {
+    opacity: 1;
+    width: 125px;
+    height: 75px;
+    size: 125px;
+}
+ 
+.h { color: aliceblue;}
+
+/* اعدادات الanimation */
+
+.bug{
+    
+    width: 200px;
+    height: 115px;
+
+    
+  position: relative; 
+  animation: example 4s ease-in-out infinite;
+ /* animation-name: example;
+  animation-duration: 4s  ;
+  */animation-direction: reverse;  
+}
+
+/* 
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+} */
+
+@keyframes example {
+    0% {left: 0px; top: 0px;}
+    50% {left: 500px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
